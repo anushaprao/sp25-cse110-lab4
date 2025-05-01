@@ -1,0 +1,5 @@
+for (let key in statistic) {
+    if (key.startsWith('r') || statistic[key] % 2 !== 0) {
+        console.log(statistic[key]);
+    }
+}
